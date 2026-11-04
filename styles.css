@@ -1,0 +1,17 @@
+body { font-family: Arial, sans-serif; background: #eee; margin: 0; }
+header { background: #000; color: #fff; text-align: center; padding: 1rem; }
+header h1 {
+  margin: 0;
+  font-family: "Bebas Neue", Impact, sans-serif;
+  font-size: 3rem;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+main { max-width: 700px; margin: 1rem auto; }
+.row { display: flex; gap: .5rem; }
+#query { flex: 1; padding: .5rem; }
+button { background: #43a047; color: #fff; border: 0; padding: .5rem 1rem; font-weight: bold; cursor: pointer; }
+button:hover { background: #1b5e20; }
+h2 { text-transform: uppercase; border-bottom: 1px solid #ccc; padding-bottom: .5rem; }
+h3, h4 { margin: .25rem 0; text-transform: uppercase; }
+.error { color: #c62828; font-weight: bold; text-transform: uppercase; }
